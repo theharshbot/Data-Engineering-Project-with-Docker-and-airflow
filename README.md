@@ -21,6 +21,13 @@ Error Handling: Incorporates error handling during web scraping and database ins
 
 Scalability: Designed to easily extend with more data sources or additional features like geolocation or advanced analytics.
 
+ETL DAG 
+
+
+![ETL dag](https://github.com/user-attachments/assets/59271423-8713-4b7e-96cc-cb8cc7b30d4a)
+
+
+
 Technologies Used
 Apache Airflow: For orchestration and scheduling of the ETL pipeline.
 Python: For web scraping, data transformation, and database interactions.
@@ -33,3 +40,12 @@ Extract: The pipeline scrapes the Premier League clubs' data from the Wikipedia 
 Transform: The scraped data is cleaned and formatted for consistency using Pandas.
 Load: The transformed data is inserted into a PostgreSQL table.
 Orchestration: The entire process is automated using Apache Airflow, which ensures the pipeline runs on schedule and handles retries in case of failure.
+
+
+Results in Pgadmin4 webserver:
+
+(Make sure to create football table before you run the results for select query)
+
+
+![pgadmin](https://github.com/user-attachments/assets/a9112546-7863-49c2-9b04-6a23e2d3c6f3)
+
