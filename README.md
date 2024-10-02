@@ -1,6 +1,6 @@
 # Data-Engineering-Project-with-Docker-and-airflow
 This is a DE project which parses wikepedia to obtain information regarding the EPL football clubs and transforms the data, pushes the data to PostgresWebserver
-
+![Screenshot 2024-10-01 212335](https://github.com/user-attachments/assets/55af9ea7-941c-488b-9f55-2efa9821bfc5)
 
 Project Description
 This project is an automated data pipeline that extracts, transforms, and loads (ETL) Premier League football club data from Wikipedia into a PostgreSQL database. The pipeline is built using Apache Airflow and automates the entire process of scraping data, cleaning and transforming it, and inserting it into a relational database for further analysis.
